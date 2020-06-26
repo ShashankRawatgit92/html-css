@@ -1,0 +1,278 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  position: relative;
+  
+}
+li
+{
+  list-style: none;
+  padding: 1rem;
+}
+a
+{
+  text-decoration: none;
+  color: white;
+  margin: 0.5;
+}
+h1
+{
+  font-size: 2rem;
+  line-height: 1.2px;
+  margin: 1rem;
+}
+p
+{
+    margin: 10px;
+} 
+.navbar
+{
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  height: 70px;
+  background-color: black;
+  color: white;
+  top: 0;
+  opacity: 0.8;
+  display: flex;
+} 
+.navbar ul
+{
+  color: white;
+  padding: 10px;
+  display: flex;
+}
+.navbar a:hover 
+{
+  border-bottom: blue 2px solid;
+}
+.content h1
+{
+  font-size: 3rem;
+}
+.content p
+{
+  font-size: 2.5rem;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  height: 85%;
+}
+.head
+{
+  background: url(./jonathan-riley-VW8MUbHyxCU-unsplash.jpg) no-repeat center center /cover;
+  height: 100vh;
+  color: white;
+}
+
+.button
+{
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  border: none;
+  background: #5967a6;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+.button:hover
+{
+  background-color: rgb(64, 64, 146);
+}
+.icons i
+{
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: green;
+  border-radius: 50px;
+}
+.flex-items
+{
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  display: flex;
+  padding: 40px;
+}
+.row
+{
+  width: 100%;
+  display: flex;
+}
+.solutions .column
+{
+  flex-direction: column;
+  flex: 1;
+}
+.solutions .column-2
+{
+  display: flex;  
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+  height: 100%;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+.bg-primary
+{
+  background-color: lightgreen;
+}
+.main-styling-flex-grid img
+{
+   width: 100%;
+}
+.main
+{
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+.main h2
+{
+  font-size: 2rem;
+  padding: 10px;
+}
+.main h4
+{
+  font-size: 1rem;
+  padding: 10px;
+}
+.main-styling-flex-grid .column
+{
+  flex: 25%;
+}
+.solutions img
+{
+  width: 100%;
+}
+.blog-css img
+{
+  width: 100%;
+}
+.blog-css .column
+{
+  flex: 1;
+  flex-direction: row-reverse;
+}
+.blog-css .column-2
+{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100%;
+  font-size: 1rem;
+}
+.bg-light
+{
+  background-color: lightblue;
+}
+.blog-css .row
+{
+  flex-direction: row-reverse;
+}
+.form-styling
+{
+  text-align: center;
+  padding: 40px;
+}
+.form-styling
+{
+  width:100%;
+  padding: 20px;
+}
+.form-styling label
+{
+  display: block;
+  margin-bottom: 5px;
+}
+.form-styling .form-control
+{
+   margin-bottom: 15px;
+}
+.form-styling input
+{
+  width: 100%;
+  padding: 20px;
+  height: 40px;
+}
+.form-styling .button
+{
+  padding: 12px;
+}
+.footer
+{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  font-size: 1.5rem;
+  text-align: center;
+  justify-content: center;
+}
+.bg-dark
+{
+  background-color: black;
+}
+.footer p
+{
+  color: white;
+  font-size: 1.2rem;
+}
+@media(max-width: 768px)
+{
+  .navbar
+  {
+    flex-direction: column;
+    padding: 10px;
+    height: 140px;
+  }
+  .navbar a
+  {
+    padding: 10px;
+  }
+  .icons .flex-items
+  {
+    flex-direction: column;
+  }
+  .solutions .row
+  {
+    flex: 100%;
+    max-width: 100%;
+    flex-direction: column;
+  }
+.main-styling-flex-grid .row .column
+  {
+    flex-direction: column;
+    flex: 100%;
+     max-width: 100%;
+  }
+  .blog-css .column
+  {
+    flex-direction: column;
+  }
+}
+.hero.blog-css
+{
+  background: url(./job.jpg);
+  height: 30vh;
+}
+
